@@ -1,0 +1,157 @@
+git add .
+git commit -m ""
+git push
+
+Luna	Perro	Labrador	5	Carlos Pérez
+('Coco', 'Gato', 'Maine Coon', 3, 'Lucía Herrera', '555-8901');
+
+
+(1, 'Chequeo general', '2025-07-01', 'Dr. Ramírez', 30.00),
+4, 'Esterilización', '2025-06-15', 'Dr. Ramírez', 110.00),
+(5, 'Control de crecimiento', '2025-01-15', 'Dr. Peña', 30.00),
+(7, 'Control nutricional', '2025-04-10', 'Dra. Soto', 25.00),
+(7, 'Radiografía', '2025-05-15', 'Dr. Gómez', 70.00),
+(7, 'Vacuna antirrábica', '2025-06-30', 'Dra. Soto', 25.00);
+(8, 'Tratamiento digestivo', '2025-04-18', 'Dr. Ramírez', 28.00),
+(8, 'Control de peso', '2025-05-20', 'Dra. Soto', 20.00),
+(8, 'Limpieza dental', '2025-06-22', 'Dra. Soto', 35.00),
+(8, 'Vacunación felina', '2025-08-01', 'Dr. Ramírez', 27.00);
+(10, 'Control de caída de pelo', '2025-08-12', 'Dra. Soto', 18.00);
+
+
+ lista de comandos básicos y esenciales de Git:
+
+🔧 Configuración Inicial
+git config --global user.name "Tu Nombre"
+git config --global user.email "tu@email.com"
+
+
+Configura tu identidad para todos los repositorios.
+
+📂 Inicializar o Clonar Repositorio
+git init
+
+
+Inicializa un nuevo repositorio Git en el directorio actual.
+
+git clone <url-del-repo>
+
+
+Clona un repositorio existente (de GitHub, GitLab, etc).
+
+🔍 Estado y Cambios
+git status
+
+
+Muestra los archivos modificados y los que están por hacer commit.
+
+git diff
+
+
+Muestra los cambios realizados que aún no han sido confirmados.
+
+➕ Agregar Archivos al Área de Staging
+git add <archivo>
+
+
+Agrega un archivo al área de preparación (staging).
+
+git add .
+
+
+Agrega todos los archivos modificados al staging.
+
+✅ Hacer Commit
+git commit -m "Mensaje del commit"
+
+
+Guarda los cambios en el repositorio local con un mensaje descriptivo.
+
+📜 Historial
+git log
+
+
+Muestra el historial de commits.
+
+git log --oneline
+
+
+Muestra el historial de manera compacta.
+
+🌿 Ramas (Branches)
+git branch
+
+
+Lista las ramas locales.
+
+git branch <nombre>
+
+
+Crea una nueva rama.
+
+git checkout <nombre>
+
+
+Cambia a otra rama.
+
+git checkout -b <nombre>
+
+
+Crea y cambia a una nueva rama.
+
+🔁 Fusionar Ramas
+git merge <rama>
+
+
+Fusiona la rama especificada con la rama actual.
+
+🔄 Actualizar desde Remoto
+git pull
+
+
+Trae y fusiona los cambios del repositorio remoto.
+
+git fetch
+
+
+Trae los cambios del remoto pero no los fusiona.
+
+📤 Enviar Cambios al Repositorio Remoto
+git push
+
+
+Envía los commits locales al remoto.
+
+git push origin <rama>
+
+
+Envía una rama específica.
+
+🗑️ Deshacer Cambios
+git checkout -- <archivo>
+
+
+Revierte un archivo a su última versión confirmada.
+
+git reset --hard
+
+
+Borra todos los cambios no confirmados.
+
+git revert <hash>
+
+
+Crea un nuevo commit que revierte otro anterior.
+
+🔗 Remotos
+git remote -v
+
+
+Lista los repositorios remotos configurados.
+
+git remote add origin <url>
+
+
+Añade un repositorio remoto.
+
+¿Quieres que te los dé en un PDF o como hoja de referencia para imprimir?
